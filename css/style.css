@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    display: flex;
+    background-color: #000;
+    padding: 0;
+    gap: 30px;
+}
+ul li a{
+    display: block;
+    padding: 15px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+ul li a:hover{
+    background-color: #FFF;
+    transition: all 0.1s ease-in;
+    color: #000;
+}
+
+
+#box1{
+    width: 100vw;
+    height: 100vh;
+    background: red;
+}
+
+#box2{
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+#box3{
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+}
+
+html{
+    scroll-behavior: smooth;
+}
